@@ -29,16 +29,14 @@ jobs:
       - run: yarn install
       - run: yarn build
       - run: yarn export
-      - run: 
-        - name: Deploy to ajisulist.github.io
-        - command: >-
-            git clone git@github.com:ajisulist/ajisulist.github.io.git
-            cd ajisulist.github.io/  
-            git checkout master
-            ls -all
-            pwd
-            git rm -rf *
-            cp -R ../out/* ./.
-            git add *
-            git commit -m "Circle CI Deployment"
-            git push origin master
+      - run: >-
+          git clone git@github.com:ajisulist/ajisulist.github.io.git &&
+          cd ajisulist.github.io/ &&
+          git checkout master &&
+          ls -all &&
+          pwd &&
+          git rm -rf * &&
+          cp -R ../out/* ./. &&
+          git add * &&
+          git commit -m "Circle CI Deployment" &&
+          git push origin master &&
