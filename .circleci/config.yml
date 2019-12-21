@@ -30,7 +30,7 @@ jobs:
       - run: yarn build
       - run: yarn export
       - run: git clone git@github.com:ajisulist/ajisulist.github.io.git
-      - run: cd ajisulist.github.io
+      - run: cd ajisulist.github.io/
       - run: git checkout master
       - run: ls -all
       - run: pwd
