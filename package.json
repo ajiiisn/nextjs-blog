@@ -1,0 +1,23 @@
+{
+  "name": "next-ts",
+  "version": "1.0.0",
+  "description": "Next.js blog",
+  "main": "index.js",
+  "author": "Aji SUlistyo Nugroho",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "next": "^9.1.6",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.21",
+    "@types/react": "^16.9.17",
+    "typescript": "^3.7.4"
+  }
+}
