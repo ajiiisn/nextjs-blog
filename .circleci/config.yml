@@ -39,4 +39,5 @@ jobs:
           git config user.name "Aji Sulistyo Nugroho" &&
           git add . &&
           git commit -m "Update via CircleCI" &&
+          echo ${GITHUB_PERSONAL_ACCESS_TOKEN}
           git push origin master
