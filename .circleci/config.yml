@@ -33,10 +33,11 @@ jobs:
           git clone git@github.com:ajisulist/ajisulist.github.io.git &&
           cd ajisulist.github.io/ &&
           git checkout master &&
-          ls -all &&
-          pwd &&
           git rm -rf * &&
-          cp -R ../out/* ./. &&
-          git add * &&
-          git commit -m "Circle CI Deployment" &&
-          git push origin master
+          git config credential.helper 'cache --timeout=120' &&
+          git config user.email "ajisulist@gmail.com" &&
+          git config user.name "Aji Sulistyo Nugroho" &&
+          git add . &&
+          git commit -m "Update via CircleCI" &&
+          # Push quietly to prevent showing the token in log &&
+          git push -q https://${GITHUB_PERSONAL_TOKEN}@github.com/ajisulist/ajisulist.github.io.git.git master
