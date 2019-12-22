@@ -34,7 +34,7 @@ jobs:
           cd ajisulist.github.io/ &&
           git checkout master &&
           git rm -rf --ignore-unmatch * &&
-          cp -R ../out/ ./.
+          cp -R ../out/ ./. &&
           git config credential.helper 'cache --timeout=120' &&
           git config user.email "ajisulist@gmail.com" &&
           git config user.name "Aji Sulistyo Nugroho" &&
