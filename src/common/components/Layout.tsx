@@ -2,6 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 import { Global, css } from '@emotion/core';
 import emotionNormalize from 'emotion-normalize';
+import { color } from '../constants';
 
 type Props = {
   children: React.ReactNode;
@@ -18,9 +19,11 @@ const Layout = ({ children, title }: Props) => {
             body {
             padding: 0;
             margin: 0;
-            background: white;
+            background-color: ${color.element.background};
+            color: ${color.element.paragraph};
             min-height: 100%;
             font-family: 'Maitree', serif;
+            font-size: 12pt;
           }
         `}
       />
