@@ -39,5 +39,4 @@ jobs:
           git config user.name "Aji Sulistyo Nugroho" &&
           git add . &&
           git commit -m "Update via CircleCI" &&
-          # Push quietly to prevent showing the token in log &&
           git push -q https://${GITHUB_PERSONAL_TOKEN}@github.com/ajisulist/ajisulist.github.io.git.git master
