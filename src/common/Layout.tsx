@@ -4,7 +4,7 @@ import { Global, css } from '@emotion/core';
 import emotionNormalize from 'emotion-normalize';
 
 type Props = {
-  children: React.ReactElement;
+  children: React.ReactNode;
   title: string;
 };
 
