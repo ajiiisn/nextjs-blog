@@ -74,9 +74,12 @@ const EntryHomepage = () => {
             {Array(5)
               .fill(1)
               .map(() => (
-                <div css={{ width: '100%', marginTop: '32px' }}>
-                  <Heading tag="h2" css={{ marginBottom: '16px', marginTop: 0 }}>
+                <div css={{ width: '100%', marginBottom: '32px' }}>
+                  <Heading tag="h2" css={{ marginBottom: '8px', marginTop: 0 }}>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  </Heading>
+                  <Heading variant="subtitle" tag="h5" css={{ marginTop: 0, marginBottom: '8px' }}>
+                    Senin, 24 Mei 2020 / Technology
                   </Heading>
                   <Text tag="p" css={{ margin: 0 }}>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae ut ratione similique temporibus
