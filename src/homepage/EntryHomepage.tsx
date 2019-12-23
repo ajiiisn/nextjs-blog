@@ -8,7 +8,7 @@ const EntryHomepage = () => {
     <Layout title="Under construction">
       <div css={{ padding: '20px' }}>
         <Heading>Psst,</Heading>
-        <Text>aji is currently working day and night to build this site content</Text>
+        <Text>aji is currently working day and night to build this shit site</Text>
       </div>
       <div css={{ padding: '20px', marginTop: '10px' }}>
         <Heading>Typography</Heading>
