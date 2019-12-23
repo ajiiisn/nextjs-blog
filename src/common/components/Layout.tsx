@@ -25,6 +25,9 @@ const Layout = ({ children, title }: Props) => {
             font-family: 'Maitree', serif;
             font-size: 12pt;
           }
+          * {
+            box-sizing: border-box;
+          }
         `}
       />
       <Head>
