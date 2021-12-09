@@ -10,7 +10,7 @@
     "@emotion/core": "^10.0.22",
     "@zeit/next-typescript": "^1.1.1",
     "emotion-normalize": "^10.1.0",
-    "next": "^9.1.6",
+    "next": "^11.1.3",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   },
