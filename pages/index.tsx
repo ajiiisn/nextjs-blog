@@ -1,7 +1,7 @@
 import React from 'react';
 
-import EntryHomepage from '../src/homepage/EntryHomepage';
+import IndexPageContent from '../src/page-contents/index/IndexPageContent';
 
-const Index = () => <EntryHomepage />;
+const IndexPage = () => <IndexPageContent />;
 
-export default Index;
+export default IndexPage;

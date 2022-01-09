@@ -6,7 +6,6 @@ Hi this is my blog (https://ajisulist.github.io) repository. Written in Typescri
 
 - React
 - Next.js
-- Emotion
-- Babel
+- Tailwind
 
 _Powered by Circle CI and Github Pages_
